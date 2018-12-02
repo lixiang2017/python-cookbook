@@ -19,3 +19,8 @@ print(year, month, day)
 s = 'hello'
 a, b, c, d, e = s
 print(a, b, c, d, e)
+
+# ignore
+data = ['ACME', 50, 91.1, (2012, 12, 21)]
+_, shares, price, _ = data
+print(shares, price)
